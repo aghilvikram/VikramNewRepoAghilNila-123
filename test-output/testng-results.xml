@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T21:25:16 IST" name="Suite" finished-at="2022-12-14T21:25:53 IST" duration-ms="36994">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T21:25:16 IST" name="Test" finished-at="2022-12-14T21:25:53 IST" duration-ms="36994">
+      <class name="extReportDemo.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:16 IST" name="setUp" finished-at="2022-12-14T21:25:34 IST" duration-ms="18082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:34 IST" name="verifyLoginWithValidCredentials" finished-at="2022-12-14T21:25:35 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:35 IST" name="tearDown" finished-at="2022-12-14T21:25:36 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:36 IST" name="setUp" finished-at="2022-12-14T21:25:51 IST" duration-ms="14908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWithInvalidCredentials()[pri:2, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:51 IST" name="verifyWithInvalidCredentials" finished-at="2022-12-14T21:25:52 IST" duration-ms="1036" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected warning message is not equal to actual one expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected warning message is not equal to actual one expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at extReportDemo.Login.verifyWithInvalidCredentials(Login.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:52 IST" name="tearDown" finished-at="2022-12-14T21:25:53 IST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyWithValidPaaswordInvalidEmail()[pri:3, instance:extReportDemo.Login@2766ca9d]" started-at="2022-12-14T21:25:53 IST" name="verifyWithValidPaaswordInvalidEmail" finished-at="2022-12-14T21:25:53 IST" depends-on-methods="extReportDemo.Login.verifyWithInvalidCredentials" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method extReportDemo.Login.verifyWithValidPaaswordInvalidEmail() on instance extReportDemo.Login@2766ca9d depends on not successfully finished methods 
+[extReportDemo.Login.verifyWithInvalidCredentials() on instance extReportDemo.Login@2766ca9d]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method extReportDemo.Login.verifyWithValidPaaswordInvalidEmail() on instance extReportDemo.Login@2766ca9d depends on not successfully finished methods 
+[extReportDemo.Login.verifyWithInvalidCredentials() on instance extReportDemo.Login@2766ca9d]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithValidPaaswordInvalidEmail -->
+      </class> <!-- extReportDemo.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
